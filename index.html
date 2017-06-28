@@ -1,19 +1,19 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
-carpentry: "FIXME"    # what kind of Carpentry (must be either "dc" or "swc")
-venue: "FIXME"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "FIXME"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: "FIXME"      # contact email address for host, lead instructor, or whoever else is handling questions
+carpentry: ""    # what kind of Carpentry (must be either "dc" or "swc")
+venue: "Pacific Northwest National Lab"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "Room 45A, Sigma 1, 3180 10th St, Richland, WA 99354"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
+language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
+latlng: "46.346700, -119.271939"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+humandate: "July 7, 2017"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "1:00-4:30pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2017-07-07      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2017-07-07  # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Kathe Todd-Brown"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["TBD"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+contact: "katherine.todd-brown@pnl.gov"      # contact email address for host, lead instructor, or whoever else is handling questions
 etherpad:             # optional: URL for the workshop Etherpad if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -56,33 +56,26 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   the pitch.
 -->
 <p>
+This hands-on one-day workshop is based on Data Carpentry's 
+R lesson.
   <a href="{{ site.swc_site }}">Software Carpentry</a>
   and <a href="{{ site.dc_site }}">Data Carpentry</a>'s mission is to
   help scientists and engineers get more research done in less time
   and with less pain by teaching them basic lab skills for scientific
-  computing.  This hands-on two-day workshop covers the basics of
-  educational psychology and instructional design, and looks at how to
-  use these ideas in both intensive workshops and regular classes.
+  computing.  
+
 </p>
 <p>
-  The workshop is a mix of lectures and hands-on lessons where you
-  practice giving a short lesson using approaches learned and
-  implement some of the teaching techniques which we will discuss.
-  This is training for teaching, not technical training; you do not
-  need any particular technical background, and we will not be
-  teaching that. This workshop is based on the constantly revised and
-  updated
- <a href="{{ site.training_site }}">curriculum</a>.
+This workshop starts with basic information about R syntax, 
+the RStudio interface, and move through how to import CSV files, the 
+structure of data frames, how to deal with factors, how to add/remove rows 
+and columns, how to calculate summary statistics from a data frame, and a 
+brief introduction to plotting. The lesson can be found 
+<a href="https://ktoddbrown.github.io/2017-07-07-PNNL-lesson/">here</a>.
 </p>
 
 <p>
-  <strong>Who:</strong> The course is aimed at everyone who is
-  interested in becoming a better teacher. In particular, this training
-  is aimed at those who want to become Software and Data Carpentry
-  instructors, run workshops and contribute to the Carpentry training
-  materials.  You don't currently have to be an instructor or a
-  teacher to attend this workshop, but you do need to be willing and
-  committed to becoming one and to improving your teaching techniques.
+  <strong>Who:</strong> This workshop is intented for participants with no programing experience but an interest in learning R.
 </p>
 
 <!--
@@ -106,20 +99,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <p>
   <strong>Requirements:</strong> Participants should bring a laptop
-  that is Internet connected and has a functioning browser.  If you
-  have it, a device for recording audio and video (mobile phones and
-  laptops are OK) is useful as throughout the two days, we are going
-  to record one another teaching in pairs or threes.  It does not have
-  to be high-quality, but it should be good enough that you can
-  understand what someone is saying.
-</p>
-<p>
-  Please note that after this course is over, you will be asked to do
-  three short follow-up exercises online in order to finish qualifying
-  as an instructor: the details are available at
-  <a href="{{ site.training_site }}/checkout/">{{ site.training_site }}/checkout/</a>.
-  If you have any questions about the workshop, the reading material,
-  or anything else, please get in touch.
+  that is Internet connected and has a functioning browser. 
 </p>
 <p align="center">
   <em>
@@ -158,83 +138,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <h2 id="preparation" name="preparation">Preparation</h2>
 
 <p>
-  Please read the following before the workshop begins:
+  Please follow the setup instructions 
+<a href="https://ktoddbrown.github.io/2017-07-07-PNNL-lesson/">here</a>. 
+You can ignore the RSQLite set up instructions since we will not be covering 
+this section of the lesson this workshop.
 </p>
-<ol>
-  <li><a href="{{ site.training_site }}/papers/porter-what-works-2013.pdf">Success in Introductory Programming: What Works?</a></li>
-  <li><a href="{{ site.training_site }}/papers/science-of-learning-2015.pdf">The Science of Learning</a></li>
-</ol>
-<p>
-  Please also read through <em>one</em> of the episodes below
-  carefully, so that you can do some exercises based on it on the
-  first day of the class.
-</p>
-<div class="row">
-  <div class="col-md-6">
-    <p><strong>Data Carpentry</strong></p>
-    <ul>
-      <li><a href="{{ site.dc_site }}/OpenRefine-ecology-lesson/01-working-with-openrefine.html">Faceting and Clustering in OpenRefine</a></li>
-      <li><a href="{{ site.dc_site }}/sql-ecology-lesson/01-sql-basic-queries.html">Basic Queries in SQL</a></li>
-      <li><a href="{{ site.dc_site }}/R-ecology-lesson/02-starting-with-data.html">Starting with Data in R</a></li>
-      <li><a href="{{ site.dc_site }}/python-ecology-lesson/01-starting-with-data">Starting with Data in Python</a></li>
-    </ul>
-  </div>
-  <div class="col-md-6">
-    <p><strong>Software Carpentry</strong></p>
-    <ul>
-      <li><a href="{{ site.swc_pages }}/shell-novice/03-create/">Working with Files and Directories in the Unix Shell</a></li>
-      <li><a href="{{ site.swc_pages }}/git-novice/04-changes/">Tracking Changes in Git</a></li>
-      <li><a href="{{ site.swc_pages }}/sql-novice-survey/01-select/">Selecting Data in SQL</a></li>
-      <li><a href="{{ site.swc_pages }}/python-novice-inflammation/02-loop/">Repeating Actions with Loops in Python</a></li>
-      <li><a href="{{ site.swc_pages }}/r-novice-gapminder/05-data-structures-part2/">Exploring Data Frames in R</a></li>
-    </ul>
-  </div>
-</div>
-
-<hr/>
-
-<h2>Schedule</h2>
-
-<p>
-  Please see <a href="{{ site.training_site }}">this site</a> for course material.
-</p>
-
-<div class="row">
-  <div class="col-md-6">
-    <h3>Day 1</h3>
-    <table class="table table-striped">
-      <tr> <td>Day 1</td> <td>09:00</td> <td>Welcome</td> </tr>
-      <tr> <td>     </td> <td>09:10</td> <td>Introduction</td> </tr>
-      <tr> <td>     </td> <td>09:40</td> <td>Novices and Formative Assessment</td> </tr>
-      <tr> <td>     </td> <td>10:40</td> <td>Morning Coffee</td> </tr>
-      <tr> <td>     </td> <td>10:55</td> <td>Teaching as a Performance Art</td> </tr>
-      <tr> <td>     </td> <td>11:55</td> <td>Morning Wrap-Up</td> </tr>
-      <tr> <td>     </td> <td>12:10</td> <td>Lunch</td> </tr>
-      <tr> <td>     </td> <td>13:10</td> <td>Expertise and Memory</td> </tr>
-      <tr> <td>     </td> <td>14:25</td> <td>Afternoon Coffee</td> </tr>
-      <tr> <td>     </td> <td>14:40</td> <td>Performance Revised</td> </tr>
-      <tr> <td>     </td> <td>15:25</td> <td>Cognitive Load</td> </tr>
-      <tr> <td>     </td> <td>16:05</td> <td>Afternoon Wrap-Up</td> </tr>
-      <tr> <td>     </td> <td>16:20</td> <td>Finish</td> </tr>
-    </table>
-  </div>
-  <div class="col-md-6">
-    <h3>Day 2</h3>
-    <table class="table table-striped">
-      <tr> <td>Day 2</td> <td>09:00</td> <td>Live Coding</td> </tr>
-      <tr> <td>     </td> <td>10:15</td> <td>Morning Coffee</td> </tr>
-      <tr> <td>     </td> <td>10:30</td> <td>The Carpentries</td> </tr>
-      <tr> <td>     </td> <td>11:30</td> <td>Carpentry Teaching Practices</td> </tr>
-      <tr> <td>     </td> <td>12:00</td> <td>Morning Wrap-Up</td> </tr>
-      <tr> <td>     </td> <td>12:15</td> <td>Lunch</td> </tr>
-      <tr> <td>     </td> <td>13:15</td> <td>Motivation and Demotivation</td> </tr>
-      <tr> <td>     </td> <td>14:00</td> <td>Lessons and Objectives</td> </tr>
-      <tr> <td>     </td> <td>15:00</td> <td>Afternoon Coffee</td> </tr>
-      <tr> <td>     </td> <td>15:15</td> <td>Afternoon Wrap-Up</td> </tr>
-      <tr> <td>     </td> <td>16:00</td> <td>Finish</td> </tr>
-    </table>
-  </div>
-</div>
 
 <!--
   ETHERPAD
